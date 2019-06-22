@@ -1,0 +1,17 @@
+{
+  "name": "@mika-sandbox/heroku-static-basic-auth",
+  "version": "1.0.0",
+  "description": "Static website hosting with BASIC authentication using Heroku",
+  "main": "lib/index.js",
+  "repository": "https://github.com/mika-sandbox/heroku-static-basic-auth",
+  "author": "Fuyuno Mikazuki",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "foreman": "^3.0.1",
+    "http-server": "https://github.com/indexzero/http-server.git"
+  }
+}
